@@ -48,6 +48,10 @@ Where Attributes is a JSON string
 }
 ```
 
+## Hash Function
+
+Since the file may be big in size, we want to be able to verify the hash ASAP. The hash algorithm used here is [xxHash](https://github.com/Cyan4973/xxHash) 
+
 ## Referenceing Data
 
 Since every file in BP protocol has hash with it, we could reference the file using it's hash.
