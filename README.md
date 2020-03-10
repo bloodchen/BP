@@ -35,7 +35,7 @@ The B:// protocol by unwriter is widely adopted by BSV community and Apps. With 
 The BP protocol is similar to B protocol
 
 ```
-OP_0 OP_RETURN "1NsP5Sb9bSKR4D6vJT3h1as2Lq5YfphZYn" [Data] "Attributes" "Hash of Data"
+OP_0 OP_RETURN "1NsP5Sb9bSKR4D6vJT3h1as2Lq5YfphZYn" [Data] "Attributes" "sha256 of Data"
 ```
 Where Attributes is a JSON string 
 
@@ -48,9 +48,6 @@ Where Attributes is a JSON string
 }
 ```
 
-## Hash Function
-
-Since the file may be big in size, we want to be able to verify the hash ASAP. The hash algorithm used here is [xxHash](https://github.com/Cyan4973/xxHash) 
 
 ## Referenceing Data
 
